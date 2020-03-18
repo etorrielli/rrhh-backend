@@ -29,7 +29,7 @@ public class AppConfig {
         LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
 
         Properties props = new Properties();
-        // Setting JDBC properties
+        // Setting JDBC properties - nvo
         props.put(DRIVER, env.getProperty("mysql.driver"));
         props.put(URL, env.getProperty("mysql.url"));
         props.put(USER, env.getProperty("mysql.user"));
